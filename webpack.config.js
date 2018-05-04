@@ -3,7 +3,7 @@ module.exports = {
   mode: 'development',
   entry: "./src/index.js",
   output: {
-    path: __dirname + './public',
+    path: path.join(__dirname, './public'),
     filename: "bundle.js"
   },
   devtool: 'eval'
